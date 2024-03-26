@@ -3,7 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="estilos/style.css">
+
+    <link rel="stylesheet" href="estilos/media-quary.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
     <title>Projeto Loguin</title>
 </head>
 <body>
@@ -13,15 +18,33 @@
         <section id="loguin">
 
             <div id="imagem">
-                foto
+                
             </div>
             
             <div id="formulario">
                 <h1>Loguin</h1>
-                <p>Seja bem-vindo(a) novamente.Faça loguin para acessar sua conta e poder fazer as configurações iniciais no seu ambiente</p>
+                <p class="mensagem">Seja Você Também Um Homem Exclusivo!</p>
 
                 <form action="loguin.php" method="post">
-                    
+                    <p>
+                        <span class="material-symbols-outlined">person</span>
+                        <input type="text" id="iloguin-caixa" required placeholder="Digite seu Usuario">
+                        <label for="iloguin-caixa" id="form-usuario">Usuario</label>
+                    </p>
+                    <p>
+                        <span class="material-symbols-outlined">lock</span>
+                        <input type="password" name="senha" id="isenha" required placeholder="Senha de 8 digitos ">
+                        <label for="isenha">Senha   </label>
+
+                    </p>
+                    <p>
+                        <input type="submit" id="enviar">
+                         
+                    </p>
+
+
+
+
                 </form>
 
             </div>

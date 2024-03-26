@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) and (max-width:992px){
+
+    section#loguin{
+        width:90vw;
+    }
+    section#loguin > div#imagem{
+        float: left;
+        width: 50vw;
+        height:100vh;
+        background-size: contain;
+        background-position: center top;
+        background-attachment: fixed;
+    }
+
+    section#loguin > div#formulario {
+        float: right;
+        
+        
+       
+    }
+    
+    .mensagem{
+       margin-right: 10px;
+    }
+    
+   
+}
+
+@media screen and (min-width:992px){
+
+    section#loguin{
+        width:90vw;
+    }
+    section#loguin > div#imagem{
+        float:right;
+        width: 50%;
+        height:90vh;
+        background-size: contain;
+        background-position: center top;
+        
+    }
+
+    section#loguin > div#formulario {
+        float: left;
+        text-align: left;
+    }
+
+        
+        
+
+}
